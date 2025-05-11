@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "chrome-extension-boilerplate-react-vite",
+  "name": "Gmail-GPT",
   "version": "0.0.1",
-  "description": "chrome extension boilerplate",
+  "description": "Use GPT-3 to write emails",
   "options_page": "src/pages/options/index.html",
   "background": {
     "service_worker": "src/pages/background/index.js"
@@ -26,13 +26,9 @@
       ],
       "js": [
         "src/pages/content/index.js"
-      ],
-      "css": [
-        "assets/css/contentStyle.chunk.css"
       ]
     }
   ],
-  "devtools_page": "src/pages/devtools/index.html",
   "web_accessible_resources": [
     {
       "resources": [
